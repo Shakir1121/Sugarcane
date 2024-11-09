@@ -5,6 +5,6 @@ Sugarcane farming is vulnerable to various diseases that can significantly impac
 Sugarcane diseases can have a big negative impact on crop output and quality, effect in financial losses for farms and the sugar business. Manually detection of diseases based on expert reviews, which can be time-consuming and may be to human mistake and also tough. Therefore to solve problem a reliable, automated method is needed which is used in this project for the early identification and evaluation of illnesses affecting sugarcane. 
 # Dataset:
 The dataset are obtained from the kaggle link as (https://www.kaggle.com/datasets/prabhakaransoundar/sugarcane-disease-dataset)<br> contains a 300 sugarcane leaf disease images." The dataset is a collection of sugarcane leaf disease images. Every image having different dimensions. The (RGB) images representing the 3 color channels (Red, Green,Blue).The dataset contains sugarcane leaf disease images of 3 classes include (Healthy,Bacterial Blight,Red Rot) as shown below. Each image is labeled with the corresponding diseases.
-![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/dataset.PNG?raw=true)
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/dataset.png?raw=true)
 
 

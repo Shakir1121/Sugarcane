@@ -38,7 +38,7 @@ The suggested ensemble model is evaluated in terms of precision,accuracy, f1 sco
 Accuracy of each model given in below table.
 ![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/accuracy_of_each.PNG?raw=true)
 ### 3.6.2. Confusion Matrix of Ensemble Model(Weighted Average):
-![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/ensemble_CM.PNG?raw=true)
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/ensemble_CM.png?raw=true)
 # 4. User Interface:
 This Project Used React JS for Front End and Fast API used For Backend.
 ![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/home_ui.PNG?raw=true)

@@ -37,6 +37,25 @@ The suggested ensemble model is evaluated in terms of precision,accuracy, f1 sco
 ### 3.6.1. Accuracy of Each Model:
 Accuracy of each model given in below table.
 ![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/accuracy_of_each.PNG?raw=true)
+### 3.6.2. Confusion Matrix of Ensemble Model(Weighted Average):
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/ensemble_CM.PNG?raw=true)
+# 4. User Interface:
+This Project Used React JS for Front End and Fast API used For Backend.
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/home_ui.PNG?raw=true)
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/predict_result.PNG?raw=true)
+
+# Conclusion: 
+A lot of farmers waste money on disease controlling but without satisfactory technical support it outcomes in poor disease control.These method benefits farmers to identify disease correctly with fewer struggle. It decreases the time needed to identify the disease.so using ensemble model called Weighted Average Ensemble to classify Sugarcane leaf diseases. The ensemble model contains of 4 base models like Custom CNN,DenseNet201, InceptionV3,and ResNet50.evaluated performance of each base models and ensemble model. Weighted average ensemble can achieve high accuracy(95%) than average ensemble.so I can used the weighted average ensemble model allocates high weights to those base models with high accuracy and give low weights to those model which accuracy did not high.Each base model did not perform well so we can combine the base models to achieve a better accuracy.
+# Future Work:
+- In the future,we include some advance features to improve the accuracy of sugarcane leaf disease prediction model which are given below.
+- 	Increase the Dataset: The existing model is trained on a very small dataset having only 300 images belong to 3 classes(Bacterial Blight,Red_Rot,Healthy).The model accuracy will be improved to increasing the dataset size and classes.
+- 	Optimization of Model:The model can be improved by using diverse deep learning algorithms and change architecture to reach greater accuracy and decrease overfitting..
+- 	Real-time disease detection: The system can be deployed on a mobile platform and integrated with a camera to enable real time detection of sugarcane diseases in the field. 
+-  ulti-spectral imaging: multi-spectral imaging can be used to capture images at different wavelengths, which can provide more detailed information about the health of sugarcane crops.
+ - Integrated with IOT devices: The system can be integrated with IoT devices like sensors to collect real-time data on environmental aspects that have disturb the growing and health of sugarcane crops.
+
+
+
 
 
 

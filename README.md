@@ -7,9 +7,9 @@ Sugarcane diseases can have a big negative impact on crop output and quality, ef
 ## 3.1 Dataset:
 The dataset are obtained from the kaggle link as (https://www.kaggle.com/datasets/prabhakaransoundar/sugarcane-disease-dataset)<br> contains a 300 sugarcane leaf disease images." The dataset is a collection of sugarcane leaf disease images. Every image having different dimensions. The (RGB) images representing the 3 color channels (Red, Green,Blue).The dataset contains sugarcane leaf disease images of 3 classes include (Healthy,Bacterial Blight,Red Rot) as shown below. Each image is labeled with the corresponding diseases.
 ![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/dataset.png?raw=true)
-## 3.1. Data Augmentation:
+## 3.2. Data Augmentation:
 Dataset is very small just 300 images of 3 classes so Data Augmentation methods are used to make new images from the original ones by applying several transformations such as rescaling,rotations,horizontl_flip,vertcal_Flip,zoom_range,shear_range and fill mode (nearest) to increase the diversity of the training data.
-##3.2. Dataset Splitting: 
+### 3.2.1. Dataset Splitting: 
 Dataset images is splitting into training and validation.
 Training Set: 80%
 Validation Set: 20%
@@ -28,7 +28,7 @@ It is a deep learning model developed by Google that belongs to the Inception fa
 It is a deep learning lightweight model designed for mobile and edge devices, introduced by Google in 2018. It builds upon the original MobileNet with improvements in both efficiency and accuracy.
 ## 3.5. Proposed Ensemble Model:
 Ensemble model are used to combined predictions from different base models to increasing accuracy and descreasing overfitting.In this Project, an ensemble model architecture as shown in below figure, has been proposed, total 4 models which three pre-trained models and one CNN model.
-![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/proposed_model.png?raw=true)
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/proposed_model.PNG?raw=true)
 
 
 

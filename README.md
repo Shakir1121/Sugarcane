@@ -29,6 +29,17 @@ It is a deep learning lightweight model designed for mobile and edge devices, in
 ## 3.5. Proposed Ensemble Model:
 Ensemble model are used to combined predictions from different base models to increasing accuracy and descreasing overfitting.In this Project, an ensemble model architecture as shown in below figure, has been proposed, total 4 models which three pre-trained models and one CNN model.
 ![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/proposed_model.PNG?raw=true)
+### 3.5.1. Weighted Average Ensemble:
+A weighted average ensemble in which the performance of the model depend on the given weight of model.The extremely-performance model will get higher weights as compared to low-performing model. 
+## 3.6. Experimental Setting:
+The suggested ensemble model is evaluated in terms of precision,accuracy, f1 score and precision.The model was firstly trained by pre-trained models such as Custom CNN, DenseNet121,InceptionV3 and MobileNetV2. The each model hyperparameter shown in  below Table.
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/parameter_each_model.PNG?raw=true)
+### 3.6.1. Accuracy of Each Model:
+Accuracy of each model given in below table.
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/accuracy_of_each.PNG?raw=true)
+
+
+
 
 
 

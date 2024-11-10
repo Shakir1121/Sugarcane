@@ -41,8 +41,8 @@ Accuracy of each model given in below table.
 ![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/ensemble_CM.png?raw=true)
 # 4. User Interface:
 This Project Used React JS for Front End and Fast API used For Backend.
-![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/home_ui.PNG?raw=true)
-![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/predict_result.PNG?raw=true)
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/home_ui.png?raw=true)
+![Alt text](https://github.com/shakir1121/Sugarcane/blob/main/EDA_Images/predict_result.png?raw=true)
 
 # Conclusion: 
 A lot of farmers waste money on disease controlling but without satisfactory technical support it outcomes in poor disease control.These method benefits farmers to identify disease correctly with fewer struggle. It decreases the time needed to identify the disease.so using ensemble model called Weighted Average Ensemble to classify Sugarcane leaf diseases. The ensemble model contains of 4 base models like Custom CNN,DenseNet201, InceptionV3,and ResNet50.evaluated performance of each base models and ensemble model. Weighted average ensemble can achieve high accuracy(95%) than average ensemble.so I can used the weighted average ensemble model allocates high weights to those base models with high accuracy and give low weights to those model which accuracy did not high.Each base model did not perform well so we can combine the base models to achieve a better accuracy.
